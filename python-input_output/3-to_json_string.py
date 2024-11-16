@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-""" To JSON string """
+"""Module to return the JSON string representation of an object."""
+
 import json
 
 
 def to_json_string(my_obj):
-    """ Function that returns the JSON representation
-    of an object (string) """
-    return (json.dumps(my_obj))
+    """Return the JSON string representation of an object."""
+    return json.dumps(my_obj)
 
