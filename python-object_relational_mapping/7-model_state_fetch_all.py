@@ -1,4 +1,6 @@
-cript that lists all State objects from the database - Using module SQLAlchemy
+#!/usr/bin/python3
+"""
+Script that lists all State objects from the database - Using module SQLAlchemy
 """
 from model_state import Base, State
 from sys import argv
