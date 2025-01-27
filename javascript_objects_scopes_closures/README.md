@@ -1,0 +1,1 @@
+Objects, scopes aand closures
